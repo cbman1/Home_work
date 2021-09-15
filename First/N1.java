@@ -17,9 +17,9 @@ public class N1 {
             }
         }
         if (flag) {
-            System.out.println("Число 5 было:)");
+            System.out.println("Да");
         } else {
-            System.out.println("Числа 5 не было:(");
+            System.out.println("Нет");
         }
     }
 }
