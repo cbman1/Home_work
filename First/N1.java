@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class N1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numbers;
         boolean flag = false;
         while (true) {
             System.out.print("Введите число: ");
-            numbers = scanner.nextInt();
+            int numbers = scanner.nextInt();
             if (numbers == 0) {
                 break;
             }
