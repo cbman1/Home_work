@@ -1,3 +1,5 @@
+// Вводится последовательность целых чисел, ввод завершается 0.
+
 import java.util.Scanner;
 
 public class first {
