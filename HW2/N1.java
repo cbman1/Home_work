@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class first {
+public class N1 {
     public static boolean prime(int a) {
         if (a > 1) {
             for (int i = 2; i < Math.sqrt(a); i++) {
