@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class N1 {
     public static boolean prime(int a) {
         if (a > 1) {
-            for (int i = 2; i < Math.sqrt(a); i++) {
+            for (int i = 2; i <= Math.sqrt(a); i++) {
                 if (a % i == 0) {
                     return false;
                 }
