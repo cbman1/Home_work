@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class N3 {
     public static boolean CheckTreug(int a, int b, int c) {
-        if ((a+b > c) && (a+c > b) && (b+c > a)) {
+        if ((a+b > c) && (a+c > b) && (b+c > a) && a > 0 && b > 0 && c > 0) {
             return true;
         } return false;
     }
