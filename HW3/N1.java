@@ -10,7 +10,7 @@ public class N1 {
 
     public static void main(String[] args) {
         Scanner In = new Scanner(System.in);
-        int a = In.nextInt();
+        long a = In.nextInt();
         System.out.println(factorial(a));
     }
 }
