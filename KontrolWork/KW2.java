@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class KontrolWork {
+public class KW2 {
     static boolean CheckChet(int a) {
         boolean flag = true;
         while (a > 0) {
